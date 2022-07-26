@@ -1,0 +1,303 @@
+    body{
+    margin: 0;
+    -webkit-font-smotthing:antialiased;
+}
+
+.navbar{
+    padding: 0.6rem;
+    
+}
+.d1{
+    color: #f00070;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 500px repeat(6,170px);  
+    background-color: black;  
+}
+.nav{
+    margin: 10px 10px;
+    width: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.second{
+    display: flex;
+    background-color: black;
+}
+
+.photo{
+    height: 580px;
+    width: 40%;
+}
+.pic{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 80px;
+    top: 80px;
+    border-radius: 30%;
+}
+.d1{
+    margin-left: 6rem;
+}
+
+.h1{
+    color: #f00070;
+}
+.introd1 h1 {
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+.introd1{
+    width: 35rem;
+    margin:auto;
+    margin-top: 12rem;
+    margin-left: 10rem;
+}
+.introd2{
+    width: 300px;
+    margin: auto;
+    margin-left: 22rem;
+}
+
+.intro{
+    height: 580px;
+    width: 60%;
+    color: WHITE;
+}
+.div{
+    color:white;
+    
+}
+
+
+
+
+
+
+.about{
+    background-color: #FFFF;
+    padding: 3.5rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.border{
+    border: 2px solid black;
+}
+
+.me{
+    width: 17rem;
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: rgb(58, 51, 51);
+}
+
+
+.text{
+    width: 50rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #888888;
+    padding: 0.5rem;
+    
+}
+
+.sk{
+    color: #888888;
+}
+
+.skills{
+    width: 50rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25rem;
+}
+
+
+.portfolio{
+    background-color: #ebebeb;
+    height: 42rem;
+    padding: 0.8rem;
+}
+
+.head1{
+    
+    width: 20rem;
+    margin-left: 3rem;
+    color: rgb(58, 51, 51);
+}
+.row1{
+    display: grid;
+    justify-content: center;
+    font-size:3rem;
+    margin: 3rem;
+}
+.radius{
+    border-radius: 15px;
+}
+.row2{
+    margin: 0.5rem;
+    
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 12rem;
+}
+.row3{
+    
+    margin: 0.5rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    
+    grid-template-rows: 12rem;
+}
+.p1{
+    margin-left: 60px;
+    width: 130px;
+}
+.p4{
+    margin-left: 60px;
+    width: 130px;
+}
+
+.p2{
+    width: 150px;
+}
+.p5{
+    margin-left: 0px;
+    width: 100px;
+    grid-area: 1/2/1/4;
+}
+
+.p3{
+    width: 220px;
+    margin-left: -65px;
+}
+.p6{
+    width: 170px;
+    margin-left: -50px;
+}
+
+.resume{
+    background-color: white;
+    height: 38rem;
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: auto 35rem;
+    grid-template-rows: 5rem auto;
+}
+
+.r1{
+    width: 10rem;
+    grid-area: 1/1/2/3;
+    color: rgb(58, 51, 51);
+    font-size: 3rem;
+    margin: auto;
+    
+}
+
+.r2{
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: auto;
+    grid-template-rows: 18rem auto;
+}
+
+.r3{
+    display: grid;
+    grid-template-rows: 23rem auto;
+    margin: 2rem;
+}
+.pi{
+   padding-left: 3.4rem; 
+}
+.exp{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.b1{
+    grid-area: 1/2/3/3;
+}
+.links{
+    padding: 1rem;
+    padding-left: 7rem;
+}
+
+.links img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.b1{
+    display: grid;
+    
+}
+
+.btn1{
+    margin: auto;
+}
+.l1{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: auto;
+}
+.l2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: auto;
+}
+.l3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: auto;
+}
+
+.btn1 button{
+    
+    border-radius: 4rem;
+    height: 1.9rem;
+    width: 6rem;
+    color: white;
+    background-color: #f00070;
+    border: none;
+}
+
+
+.edu{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.contact{
+    height: 38rem;
+    display: grid;
+    grid-template-columns: repeat(2,50%);   
+}
+
+.connect{
+    
+    background-color: #ebebeb;
+}
+.connect img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.mssg{
+    display: flex;
+    padding-top: 7rem;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+
